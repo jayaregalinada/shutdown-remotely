@@ -1,0 +1,15 @@
+{
+  "name": "daemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-windows": "^0.1.7"
+  }
+}

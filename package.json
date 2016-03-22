@@ -1,15 +1,27 @@
 {
-  "name": "daemon",
-  "version": "1.0.0",
-  "description": "",
+  "name": "shutdown-remotely",
+  "version": "2.0.0",
+  "description": "Access and shutdown computer remotely using service.",
   "main": "lib/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node lib/app.js"
+    "test": "echo \"Only Testing\" && node lib/app.js",
+    "start": "node lib/app.js",
+    "install-service": "node install.js",
+    "uninstall-service": "node uninstall.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayaregalinada/shutdown-remotely.git"
+  },
+  "author": "Jay Are Galinada <jayaregalinada@gmail.com>",
+  "license": "MIT",
   "dependencies": {
+    "angular": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "jquery": "^1.12.2",
+    "node-notifier": "^4.5.0",
     "node-windows": "^0.1.7"
   }
 }

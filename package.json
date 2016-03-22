@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Only Testing\" && node lib/app.js",
     "start": "node lib/app.js",
+    "install": "node install.js",
     "install-service": "node install.js",
     "uninstall-service": "node uninstall.js"
   },

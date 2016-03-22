@@ -1,1 +1,7 @@
 /node_modules
+/lib/daemon
+.DS_Store
+npm-debug.log
+.idea/
+.project
+.settings/

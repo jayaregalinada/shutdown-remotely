@@ -10,10 +10,10 @@ You must know the computer's IP address, then access the web with port, `8008` _
 [http://127.0.0.1:8008](http://127.0.0.1:8008)
 
 ## Installation
-To install the service.
+This will automatically create and install the service.
 
 ```
-npm run-script install-service
+npm install
 ```
 
 ## Uninstall

@@ -1,14 +1,14 @@
 {
   "name": "shutdown-remotely",
-  "version": "2.0.0",
-  "description": "Access and shutdown computer remotely using service.",
-  "main": "lib/app.js",
+  "version": "2.0.1",
+  "description": "Access and shutdown computer remotely using service. Currently working on Windows only.",
+  "main": "service.js",
   "scripts": {
-    "test": "echo \"Only Testing\" && node lib/app.js",
-    "start": "node lib/app.js",
-    "install": "node install.js",
-    "install-service": "node install.js",
-    "uninstall-service": "node uninstall.js"
+    "start": "node lib/app",
+    "install": "node install",
+    "install-service": "node install",
+    "uninstall-service": "node uninstall",
+    "uninstall": "node uninstall"
   },
   "repository": {
     "type": "git",

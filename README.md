@@ -2,7 +2,7 @@
 
 This simple service will create a http server to access your computer remotely with message.
 
-## /!\ NOTE /!\
+## Sorry Unix
 As of now this only works on Windows system.
 
 You must know the computer's IP address, then access the web with port, `8008` _(by default)_
@@ -13,14 +13,14 @@ You must know the computer's IP address, then access the web with port, `8008` _
 This will automatically create and install the service.
 
 ```
-npm install
+yarn install
 ```
 
 ## Uninstall
 To uninstall the service
 
 ```
-npm run-script uninstall-service
+yarn run uninstall
 ```
 
 ## Using the following technology

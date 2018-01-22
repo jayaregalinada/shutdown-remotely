@@ -1,6 +1,6 @@
 {
   "name": "shutdown-remotely",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Access and shutdown computer remotely using service. Currently working on Windows only.",
   "main": "service.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "body-parser": "^1.15.0",
     "bootstrap": "^3.3.6",
     "express": "^4.13.4",
-    "jquery": "^1.12.2",
+    "jquery": "^3.0",
     "node-windows": "^0.1.7"
   }
 }
